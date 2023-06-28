@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Web Assignment</title>
+    <style>
+        #logo{
+            margin-top: -10px;
+            margin-left: 108px;
+            height: 72px;
+            width: 250px;
+        }
+        
+        .topbar{
+            background-color: #625a5f;
+            width: 1700px;
+            margin: -10px;
+            margin-right: -10px;
+            padding: -10px;
+            height: 64px;
+        }
+        #menuicon{
+            color: white;
+            font-size: 30px;
+            position: absolute;
+            top: 20px;
+            right: 145px;
+        }
+        .dropdown{
+            border: none;
+            background-color: #625a5f;
+            color: white;
+            position: absolute;
+            top: 25px;
+            left: 1170px;
+        }
+        .dropdown :hover{
+            color:gray;
+            
+        }
+        .signinbtn{
+            background-color: #f32d3d;
+            border-radius: 3px;
+            color: white;
+            border: none;
+            width: 65px;
+            height: 25px;
+            position: absolute;
+            top: 25px;
+            right: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #search{
+            color: gray;
+            position: absolute;
+            top: 17.5px;
+            left: 334px;
+            font-size: 20px;
+            
+        }
+        .searchbar{
+            width: 400px;
+            border-radius: 5px;
+            height: 30px;
+            position: absolute;
+            top: 20px;
+            left: 325px;
+            margin-top: -10px;
+        }
+        .topbar1{
+            background-color: black;
+            margin: -16px;
+            height: 40px;
+            width: 1700px;
+        }
+        .Horizontal{
+            list-style-type: none;
+            display: block;
+            color: rgb(214, 193, 193);
+            padding: 20px;
+            padding-top: 5px;
+            padding-left: 3px;
+            margin-left: 150px;
+            font-size: 15px;
+            font-family: sans-serif;
+        }
+        .Horizontal :hover{
+            color: white;
+        }
+        li{
+            float: left;
+            padding: 5px;
+        }
+        #suoerscript{
+            color: #f32d3d;
+            font-size: 8px;
+        }
+        .rightside{
+            float: right;
+            list-style-type: none;
+            display: block;
+            color: rgb(251, 247, 247);
+            padding: 20px;
+            padding-top: 5px;
+            padding-left: 3px;
+            position: absolute;
+            top: 46px;
+            right: 120px;
+            font-size: 14px;
+           
+        }
+        #leftarrow{
+            background-color: #ece7ea;
+            font-size: 25px;
+            width: 30px;
+        }
+        #rightarrow{
+            float: right;
+            background-color: #ece7ea;
+            font-size: 25px;
+            width: 30px;
+        }
+        #image{
+            margin-top: 30px;
+            margin-left: 140px;
+            border-radius: 10px;
+        }
+        .images{
+           margin-left: 140px;
+           
+        }
+        #firstimage{
+            border-radius: 25px;
+        }
+        #secondimage{
+            border-radius: 25px;
+        }
+        #thirdimage{
+            border-radius: 25px;
+        }
+        #fourthimage{
+            border-radius: 25px;
+        }
+        #fifthimage{
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <img src="logo2.jpeg" alt="" id="logo">
+        
+        <input type="text" class="searchbar" placeholder="&nbsp &nbsp &nbsp &nbsp Search for Movies,Events,Sports and Activites">
+        <span class="material-symbols-outlined" id="search">
+            search
+            </span>
+        <select class="dropdown">
+            <option>Bengaluru</option>
+            <option>Hyderabad</option>
+            <option>Vizag</option>
+            <option>Chennai</option>
+            <option>Pune</option>
+        </select>
+        <button class="signinbtn">Sign in</button>
+        <span class="material-symbols-outlined" id="menuicon">
+            menu
+            </span>
+    </div>
+    <div class="topbar1">
+        
+    <ul class="Horizontal">
+        <li>Movies</li>
+        <li>Stream<sup id="suoerscript">NEW</sup></li>
+        <li>Events</li>
+        <li>Plays</li>
+        <li>Sports</li>
+        <li>Activites</li>
+        <li>Buzz</li>
+
+        
+    </ul>
+    <ul class="rightside">
+        <li>
+            ListYourShow
+        </li>
+        <li>Corporates</li>
+        <li>Offers</li>
+        <li>GiftCards</li>
+    </ul>
+</div>
+<div >
+    <img src="adipurush.webp" id="image" >
+</div>
+
+<span class="material-symbols-outlined" id="leftarrow">
+    arrow_back_ios
+    </span>
+
+<span class="material-symbols-outlined" id="rightarrow">
+    arrow_forward_ios
+    </span>
+<div class="images" >  
+        <img src="samajavaragamana.webp" height="350px" width="200px" id="firstimage">
+        <img src="spy.webp" height="350px" width="200px" id="secondimage">
+        <img src="adhi.webp"height="350px" width="200px" id="thirdimage">
+        <img src="karthik.webp"height="350px" width="200px" id="fourthimage">
+        <img src="horror.webp"height="350px" width="200px" id="fifthimage">
+        <img src="batman.webp"height="350px" width="200px" id="fifthimage">
+</div>
+</body>
+
+</html>
+<!--
+.Horizontal{
+    list-style-type:none;
+
+    background-color: black;
+}
+.hlist{
+    float:left;
+}
+.hlist a{
+    
+    display: block;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}-->
